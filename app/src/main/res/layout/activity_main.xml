@@ -8,16 +8,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#5FEFD6"
-    android:layout_marginTop="10dp"
+
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/sonuc"
+            android:id="@+id/islemgecmisi"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:gravity="right|center"
@@ -25,7 +26,7 @@
             android:text="100+12"></TextView>
 
         <TextView
-            android:id="@+id/gra"
+            android:id="@+id/sonuc"
             android:layout_width="match_parent"
             android:layout_height="170dp"
             android:gravity="center|right"
